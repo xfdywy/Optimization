@@ -1,0 +1,3 @@
+num_iter,testloss,trainloss,passeddata
+0,0.498762,0.518279,0
+1,0.201516,0.204958,20000

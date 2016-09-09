@@ -1,0 +1,11 @@
+cd D:\project\linear_l2_svrg\linear_l2_svrg\x64\Release
+
+
+
+linear_l2_svrg.exe -t D:\project\rcv1data\subset.test  -innerm 20000 -losstype 2 -o logistic_svrg.csv -i 10000 D:\project\rcv1data\rcv1_train.binary
+
+
+
+linear_l2_svrg.exe -t D:\project\linear_data\alltest.libsvm -a 0.01 -rc 1  -o linear_simu_svrg.csv -innerm 20000 -losstype 2 -o linear_simu_svrg.csv -i 10000 D:\project\linear_data\alltrain.libsvm
+
+linear_l2_svrg.exe -t D:\project\linear_data\alltest.libsvm -a 0.001 -rc 1  -o linear_simu_svrg.csv -innerm 200000 -losstype 2 -o linear_simu_svrg.csv -i 10000 D:\project\linear_data\alltrain.libsvm
